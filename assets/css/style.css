@@ -872,3 +872,48 @@ section {
         height: 160px;
     }
 }
+
+/* Achievements Section */
+.achievements {
+    background: #111;
+}
+
+.achievements-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.achievements-stats img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.achievements-badges {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.achievements-badges img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+}
+
+.achievements-shields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+}
+
+.achievements-shields img {
+    height: 32px;
+}

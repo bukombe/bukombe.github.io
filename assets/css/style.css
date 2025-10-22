@@ -917,3 +917,13 @@ section {
 .achievements-shields img {
     height: 32px;
 }
+
+.contact-link {
+    color: #cbd5e1;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    color: #667eea;
+    text-decoration: underline;
+}

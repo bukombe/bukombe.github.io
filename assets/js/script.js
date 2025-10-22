@@ -286,3 +286,29 @@ window.addEventListener('load', () => {
         document.body.classList.add('loaded');
     }, 500);
 });
+
+// Animate progress bars on scroll
+(function initProgressBars() {
+    const bars = document.querySelectorAll('.progress-bar');
+    if (!bars.length) return;
+
+    const onReveal = (entry) => {
+        const bar = entry.target;
+        const value = parseInt(bar.getAttribute('data-progress') || '0', 10);
+        bar.style.width = value + '%';
+    };
+
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                onReveal(entry);
+                obs.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.4 });
+
+    bars.forEach(bar => {
+        bar.style.width = '0%';
+        observer.observe(bar);
+    });
+})();

@@ -1,0 +1,23 @@
+title: "Dev Portfolio"
+description: "Minimal Black & White Developer Portfolio"
+theme: null
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+baseurl: ""
+url: "https://yourusername.github.io"
+permalink: pretty
+
+# Custom options
+author:
+  name: "Your Name"
+  email: "you@example.com"
+  github: "yourusername"
+  linkedin: "your-link"
+
+# Exclude files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

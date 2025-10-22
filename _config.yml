@@ -1,23 +1,80 @@
-title: "Dev Portfolio"
-description: "Minimal Black & White Developer Portfolio"
-theme: null
+# Site Settings
+title: "Bukombe DevOps Engineer"
+description: "DevOps Engineer | Cloud Infrastructure | Automation | CI/CD"
+
+# Build Settings
 markdown: kramdown
+highlighter: rouge
+# Use the default GitHub Pages-compatible theme or your custom layout
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
+
+# URL Settings for user/organization site
 baseurl: ""
-url: "https://yourusername.github.io"
+url: "https://bukombe.github.io"
 permalink: pretty
 
-# Custom options
+# Author and Social
 author:
-  name: "Your Name"
-  email: "you@example.com"
-  github: "yourusername"
-  linkedin: "your-link"
+  name: "Bukombe"
+  email: "your.email@example.com"
+  github: "bukombe"
+  linkedin: "bukombe"
 
-# Exclude files from build
+social:
+  github: bukombe
+  linkedin: bukombe
+  twitter: bukombe
+
+# SEO Settings
+seo:
+  type: Person
+  links:
+    - "https://github.com/bukombe"
+    - "https://linkedin.com/in/bukombe"
+
+# Navigation (for templates that use it)
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/#about"
+  - title: "Skills"
+    url: "/#skills"
+  - title: "Projects"
+    url: "/#projects"
+  - title: "Contact"
+    url: "/#contact"
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Exclude from processing
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

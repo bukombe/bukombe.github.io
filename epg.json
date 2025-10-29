@@ -1,0 +1,370 @@
+{
+  "channel-1": {
+    "Mon": [
+      {
+        "time": "08:50",
+        "title": "Benirage"
+      },
+      {
+        "time": "10:00",
+        "title": "Hidden Gems: Rwanda Waterfalls"
+      },
+      {
+        "time": "12:00",
+        "title": "Culinary Trails: Local Flavours"
+      },
+      {
+        "time": "14:00",
+        "title": "City Walk: Kigali Landmarks"
+      },
+      {
+        "time": "16:00",
+        "title": "Cultural Spotlight: Intore Dances"
+      },
+      {
+        "time": "18:00",
+        "title": "Safari Live: Evening Drive"
+      }
+    ],
+    "Tue": [
+      {
+        "time": "08:00",
+        "title": "Mountain Trails: Volcanoes NP"
+      },
+      {
+        "time": "10:00",
+        "title": "Lake Kivu Shores"
+      },
+      {
+        "time": "12:00",
+        "title": "Taste of Rwanda: Coffee Routes"
+      },
+      {
+        "time": "14:00",
+        "title": "City Walk: Kigali Art Tour"
+      },
+      {
+        "time": "16:00",
+        "title": "Culture: Drum Makers"
+      },
+      {
+        "time": "18:00",
+        "title": "Safari Live: Sunset Lookout"
+      }
+    ],
+    "Wed": [
+      {
+        "time": "08:00",
+        "title": "Birding Special: Nyungwe"
+      },
+      {
+        "time": "10:00",
+        "title": "Tea Plantations: Gisovu"
+      },
+      {
+        "time": "12:00",
+        "title": "Culinary: Banana Recipes"
+      },
+      {
+        "time": "14:00",
+        "title": "City Walk: Historic Kigali"
+      },
+      {
+        "time": "16:00",
+        "title": "Culture: Craft Markets"
+      },
+      {
+        "time": "18:00",
+        "title": "Safari Diaries"
+      }
+    ],
+    "Thu": [
+      {
+        "time": "08:00",
+        "title": "Gorilla Trekking Insights"
+      },
+      {
+        "time": "10:00",
+        "title": "Waterfall Trail: Cyimbili"
+      },
+      {
+        "time": "12:00",
+        "title": "Culinary: Cassava Feast"
+      },
+      {
+        "time": "14:00",
+        "title": "City Walk: Modern Kigali"
+      },
+      {
+        "time": "16:00",
+        "title": "Culture: Storytelling"
+      },
+      {
+        "time": "18:00",
+        "title": "Lakeside Evenings"
+      }
+    ],
+    "Fri": [
+      {
+        "time": "08:00",
+        "title": "National Parks Overview"
+      },
+      {
+        "time": "10:00",
+        "title": "Hiking: Congo Nile Trail"
+      },
+      {
+        "time": "12:00",
+        "title": "Culinary: Grilled Brochettes"
+      },
+      {
+        "time": "14:00",
+        "title": "City Walk: Tech Kigali"
+      },
+      {
+        "time": "16:00",
+        "title": "Culture: Music Workshops"
+      },
+      {
+        "time": "18:00",
+        "title": "Sunset Safari"
+      }
+    ],
+    "Sat": [
+      {
+        "time": "08:00",
+        "title": "Weekend Getaways"
+      },
+      {
+        "time": "10:00",
+        "title": "Market Tour: Kimironko"
+      },
+      {
+        "time": "12:00",
+        "title": "Culinary: Weekend Specials"
+      },
+      {
+        "time": "14:00",
+        "title": "City Walk: Green Spaces"
+      },
+      {
+        "time": "16:00",
+        "title": "Culture: Dance Classes"
+      },
+      {
+        "time": "18:00",
+        "title": "Night Safari"
+      }
+    ],
+    "Sun": [
+      {
+        "time": "08:00",
+        "title": "Scenic Sunday Rides"
+      },
+      {
+        "time": "10:00",
+        "title": "Faith & Heritage"
+      },
+      {
+        "time": "12:00",
+        "title": "Culinary: Sunday Lunch"
+      },
+      {
+        "time": "14:00",
+        "title": "City Walk: Family Spots"
+      },
+      {
+        "time": "16:00",
+        "title": "Culture: Community Voices"
+      },
+      {
+        "time": "18:00",
+        "title": "Golden Hour Stories"
+      }
+    ]
+  },
+  "channel-2": {
+    "Mon": [
+      {
+        "time": "09:00",
+        "title": "Events Live: Market Fest"
+      },
+      {
+        "time": "11:00",
+        "title": "Behind The Scenes: Stage Setup"
+      },
+      {
+        "time": "13:00",
+        "title": "Artist Spotlight: Local Bands"
+      },
+      {
+        "time": "15:00",
+        "title": "Street Food Tour"
+      },
+      {
+        "time": "17:00",
+        "title": "Events Recap & Highlights"
+      },
+      {
+        "time": "19:00",
+        "title": "Live Concert"
+      }
+    ],
+    "Tue": [
+      {
+        "time": "09:00",
+        "title": "Conference Live: Tech Kigali"
+      },
+      {
+        "time": "11:00",
+        "title": "Workshop: Creators Lab"
+      },
+      {
+        "time": "13:00",
+        "title": "Spotlight: Visual Artists"
+      },
+      {
+        "time": "15:00",
+        "title": "Food Truck Rally"
+      },
+      {
+        "time": "17:00",
+        "title": "Highlights: Day 2"
+      },
+      {
+        "time": "19:00",
+        "title": "Evening Gala"
+      }
+    ],
+    "Wed": [
+      {
+        "time": "09:00",
+        "title": "Expo Live: Innovation"
+      },
+      {
+        "time": "11:00",
+        "title": "Panel: Tourism Trends"
+      },
+      {
+        "time": "13:00",
+        "title": "Artist Spotlight: Dancers"
+      },
+      {
+        "time": "15:00",
+        "title": "Street Performers"
+      },
+      {
+        "time": "17:00",
+        "title": "Daily Recap"
+      },
+      {
+        "time": "19:00",
+        "title": "Live Orchestra"
+      }
+    ],
+    "Thu": [
+      {
+        "time": "09:00",
+        "title": "Live: Startup Pitches"
+      },
+      {
+        "time": "11:00",
+        "title": "Workshop: Media Skills"
+      },
+      {
+        "time": "13:00",
+        "title": "Spotlight: Designers"
+      },
+      {
+        "time": "15:00",
+        "title": "Pop-up Food Fair"
+      },
+      {
+        "time": "17:00",
+        "title": "Recap & Interviews"
+      },
+      {
+        "time": "19:00",
+        "title": "Live DJ Set"
+      }
+    ],
+    "Fri": [
+      {
+        "time": "09:00",
+        "title": "Summit Live"
+      },
+      {
+        "time": "11:00",
+        "title": "Roundtable: Culture"
+      },
+      {
+        "time": "13:00",
+        "title": "Artist Spotlight: Singers"
+      },
+      {
+        "time": "15:00",
+        "title": "Food Crawl"
+      },
+      {
+        "time": "17:00",
+        "title": "Highlights: Week Recap"
+      },
+      {
+        "time": "19:00",
+        "title": "Headline Concert"
+      }
+    ],
+    "Sat": [
+      {
+        "time": "09:00",
+        "title": "Weekend Carnival Live"
+      },
+      {
+        "time": "11:00",
+        "title": "Behind The Scenes: Parade"
+      },
+      {
+        "time": "13:00",
+        "title": "Artist Spotlight: Bands"
+      },
+      {
+        "time": "15:00",
+        "title": "Street Eats Tour"
+      },
+      {
+        "time": "17:00",
+        "title": "Saturday Highlights"
+      },
+      {
+        "time": "19:00",
+        "title": "Main Stage Live"
+      }
+    ],
+    "Sun": [
+      {
+        "time": "09:00",
+        "title": "Community Fair Live"
+      },
+      {
+        "time": "11:00",
+        "title": "Workshops: Crafts"
+      },
+      {
+        "time": "13:00",
+        "title": "Spotlight: Choirs"
+      },
+      {
+        "time": "15:00",
+        "title": "Sweet Treats Tour"
+      },
+      {
+        "time": "17:00",
+        "title": "Weekly Recap & Awards"
+      },
+      {
+        "time": "19:00",
+        "title": "Closing Ceremony"
+      }
+    ]
+  }
+}

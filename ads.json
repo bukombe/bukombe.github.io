@@ -1,23 +1,13 @@
-<?php
-header('Content-Type: application/json; charset=utf-8');
-header('Access-Control-Allow-Origin: *');
-
-ini_set('display_errors', 0);
-error_reporting(0);
-
-$station = $_GET['station'] ?? 'default';
-
-echo json_encode([
-    "success" => true,
-    "active" => true,
-    "station" => $station,
-    "id" => 1,
-    "title" => "MTN Promotion",
-    "logo" => "https://advert.kesug.com/images/kc2.png",
-    "audioUrl" => "https://advert.kesug.com/api/bpr.mp3",
-    "duration" => 10,
-    "serverTime" => gmdate("c"),
-    "startTime" => gmdate("c"),
-    "endTime" => gmdate("c")
-]);
-exit;
+{
+    "success": true,
+    "active": true,
+    "station": "radio1",
+    "id": 1,
+    "title": "MTN Promotion",
+    "logo": "https://advert.kesug.com/images/kc2.png",
+    "audioUrl": "https://advert.kesug.com/api/bpr.mp3",
+    "duration": 15,
+    "serverTime": "2026-05-28T21:56:11+00:00",
+    "startTime": "2026-05-28T21:56:11+00:00",
+    "endTime": "2026-05-28T21:56:11+00:00"
+}
